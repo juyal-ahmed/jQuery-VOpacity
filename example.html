@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="./jquery.vopacity.js"></script>
+	<script>
+	jQuery(document).ready(function($) {
+		"use strict";
+		jQuery('.vopacity1').vopacity(0.15, true);
+		jQuery('.vopacity-inner-content2').vopacity(0.25, true);
+	});
+	</script>
+	
+	<style>
+		header,
+		footer {
+			text-align: center;
+			height: 120px;
+		}
+		.vopacity {
+			border: 5px solid blue;
+			background: orange;
+			padding: 100px;
+		}
+		.vopacity-inner-content {
+			border: 5px solid blue;
+			background: red;
+			padding: 100px;
+		}
+		.extraLarge {
+			font-size: 120px;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+<header>
+<h1>Header</h1>
+</header>
+<div class="vopacity1 vopacity" data-content-dynamic-opacity-class="vopacity-inner-content">
+PADDING-TOP = 100PX;
+<div class="vopacity-inner-content">
+	<h1 class="extraLarge">jQuery VOpacity Content</h1>
+</div>
+PADDING-BOTTOM = 100PX;
+</div>
+
+<div class="vopacity2 vopacity">
+PADDING-TOP = 100PX;
+<div class="vopacity-inner-content vopacity-inner-content2">
+	<h1 class="extraLarge">jQuery VOpacity Content</h1>
+</div>
+PADDING-BOTTOM = 100PX;
+</div>
+<footer>
+<h1>Footer</h1>
+</footer>
+</body>
+</html>
