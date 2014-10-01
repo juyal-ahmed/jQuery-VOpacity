@@ -6,7 +6,7 @@
 	Author: Jewel Ahmed
 	Author URL: http://www.codeatomic.com/
 
-	Licensed under MIT and GPLv2.
+	Licensed under The MIT License (MIT)
 	Usage: jQuery('div.class').vopacity(0.15, true);
 ---------------------------------------------------------------------------------------
 */

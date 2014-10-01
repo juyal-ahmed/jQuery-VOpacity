@@ -7,8 +7,7 @@ By default when a container on the viewport, it will have a default 1.0 opacity 
 
 Then, When you scroll down your page and it's visible area are going less then it's actual height it's content will go to 0 opacity in a percentage calculation, this is what this plugins does.
 
-Usages:
-===============
+## Usages:
 <pre>
 jQuery('div.class').vopacity(0.15, true);
 jQuery('.class').vopacity(0.15, true);
@@ -20,17 +19,16 @@ The send arg is a bool one, you can use true to use container outerHeight(true) 
 
 You can use vopacity on a container and mention it's another container to apply opacity with below listed example with mentioning a data attributes "data-content-dynamic-opacity-class".
 
-Plugins Used Container:
-==============================
+## Plugins Used Container:
 <pre>
-<div class="vopacity" data-content-dynamic-opacity-class="vopacity-inner-content">
-	PADDING-TOP = 100PX;
-	<div class="vopacity-inner-content">
-		CONTENT
-	</div>
-	PADDING-BOTTOM = 100PX;
-</div>
-<script>
-	jQuery('.vopacity').vopacity(0.15, true);
-</script>
+&lt;div class="vopacity" data-content-dynamic-opacity-class="vopacity-inner-content"&gt;
+PADDING-TOP = 100PX;
+&lt;div class="vopacity-inner-content"&gt;
+CONTENT
+&lt;/div&gt;
+PADDING-BOTTOM = 100PX;
+&lt;/div&gt;
+&lt;script&gt;
+jQuery('.vopacity').vopacity(0.15, true);
+&lt;/script&gt;
 </pre>
