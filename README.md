@@ -1,7 +1,7 @@
 jQuery-VOpacity
 ===============
 
-Variable / Dynamic Content Opacity depends on page scroll or page down.
+A jQuery Plugins for Variable / Dynamic Content Opacity depends on page scroll or page down.
 
 By default when a container on the viewport, it will have a default 1.0 opacity css property.
 
